@@ -21,6 +21,8 @@ window._pcq.push(['triggerOptIn',{subscriberSegment: 'homepage', modal: {text: '
 window._pcq.push(['triggerOptIn', {subscriberSegment: 'homepage'}]); //Calls triggerOptIn without modal and default segment as 'homepage'
 
 window._pcq.push(['triggerOptIn']); //Calls triggerOptIn with default text and default segment(global)
+      window._pcq = window._pcq || [];
+_pcq.push(['noTrigger',true]); //disables automatic opt-in
       </script>
     </head>
 <body>
